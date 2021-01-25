@@ -23,4 +23,6 @@ async def suggest(ctx, *, description):
     await msg.add_reaction('👎')
     await ctx.send("Successfully sent your suggestion!")
 
+client.load_extension("giveaways")
+    
 client.run("Nzk0MjM3Mzc1Nzg5NTMxMTY3.X-35Mg.JSrKaA6zIuvIjBQ60hOImwLHDmQ")
